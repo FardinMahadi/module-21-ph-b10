@@ -11,12 +11,10 @@ fanOffKor();
 function doubleIt(number) {
   const doubled = number * 2;
   console.log(number, doubled);
+  console.log("-------------");
 }
 
 console.log("I will call the function");
 doubleIt(15);
-console.log("-------------");
 doubleIt(89);
-console.log("-------------");
-console.log(32);
-console.log("-------------");
+doubleIt(32);
